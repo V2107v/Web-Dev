@@ -1,0 +1,23 @@
+p {
+	font-family: Gotu;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 5em;
+	text-align: center;
+	text-decoration: line-through;
+}
+
+span{
+	font-size: 2em;
+}
+
+body{
+	font-size: 10px;
+}
+

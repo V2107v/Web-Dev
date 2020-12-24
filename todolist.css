@@ -1,0 +1,15 @@
+/*Element*/
+li {
+	border: 2px solid red;
+}
+
+/*id*/
+#special {
+	background: blue;
+	border: 2px solid green;
+}
+
+/*class*/
+.done {
+	text-decoration: line-through;
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   
+   
+
+   <!-- events-style CSS -->
+   <link rel="stylesheet" href="events-style.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+   
+   <title>Glitch '20 - Events</title>
+   <link rel = "icon" href ="img/logo.jpeg" type = "image/x-icon"> 
+
+   
+
+</head>
+
+<body>
+    
+  
+    <!-- ========== NavBar Start ========== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="https://www.facebook.com/113482887002390/posts/113839643633381/?sfnsn=wiwspmo&extid=jUWd4hzpE3E2i01E" target="_blank">
+            <img src="img/logo.jpeg" class="rounded-circle" width="30" height="30" alt="">
+          </a>
+        <a class="navbar-brand" href="index.html">Glitch '20</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" id="eventsli" href="#events">
+                Events
+              </a>
+              
+            </li>
+            
+          </ul>
+          
+          <span>
+            <a href="#about" class="nav-link" id="about-link"> About us</a>
+          </span>
+
+        <a href="https://www.facebook.com/113482887002390/posts/113839643633381/?sfnsn=wiwspmo&extid=jUWd4hzpE3E2i01E" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+           
+     
+        </div>
+      </nav>
+
+    <!-- ========== NavBar End ========== -->
+
+
+
+    <!-- ========== Jumbotron Start ========== -->
+
+    <section id="home"> 
+        <div class="container-fluid p-0 m-0">
+            <div class="jumbotron jumbotron-fluid py-1">
+                <div class="text-center">
+                    <img src="img/logo-crop.jpeg" class="img-fluid mx-auto" alt="">
+                </div>
+                
+                <div class="py-0 px-5 mt-3 text-center">
+                    
+                    <p class="glitch-content"> <span>Glitch is the annual event organised by freshers at IEEE DTU. <br></span>  
+                        A two day long event comprising of a series of mini events ranging from mind twisting software/ hardware events to mood-refreshing fun events! <br>
+                        Join us on 30th April and 1st May  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <section class="jumbotron text-center" id="home">
+        <img src="img/logo.jpeg" class="img-responsive" height="auto" alt="">
+        <h1 class="display-3"> </h1>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit neque necessitatibus numquam?</p>
+        <button class="btn btn-primary">Do Something!</button>
+        <button class="btn btn-success">Another Thing!</button>
+    </section> -->
+
+    <!-- ========== Jumbotron End ========== -->
+
+
+
+    <!-- ========= Events Section Start ==========-->
+
+    <section id="events"> 
+        
+        <div class="container">
+            
+            <div class="row justify-content-around">
+
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/c_error.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://forms.gle/3hMVv33PwRgWQT9cA" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn1">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal1" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close1 close">&times;</span>
+                                    <h4>Compiler Error</h4>
+                                    <p>Charge up your machines, caffeine up your brains, plug into Spotify and get coding!
+                                        IEEE DTU presents to you, Compiler Error!
+                                        Comment out your quarantine boredom with 3 exhilarating rounds of programming.
+                                        So what are you waiting for? Ready your Codeforces handles and get compiling!
+                                    </p>
+                                    <p>DATE: 30th April and 1st May</p>
+                                    <p>OverView</p>
+
+                                    <ol>
+                                        <li>3 rounds, namely A, B, C, each with increasing difficulty.</li>
+                                        <li>Each round would be of 2 hours, making the total running time of the contest to be that of 6 hours.</li>
+                                        <li>The platform of choice is going to be Codeforces (the rounds would be held in morning-afternoon slot, to allow time for other events, and also to be away from server-overload problems)</li>
+                                        <li>Scoring-
+                                            <ul>
+                                                <li>Easy - 100</li>
+                                                <li>Medium - 300</li>
+                                                <li>Hard - 500</li>
+                                            </ul>
+                                        </li>
+                                        <li>For in-contest rules, standard rules of Codeforces contest would apply.</li>
+                                        <li>Each round would have it's own top X placeholders.</li>
+                                        <li>If a person wins in 2 or more rounds, his entry for the hall of placeholders would only be counted ONCE, in such cases the immediate next rank holder who does not meet this criterion would be picked for a placeholder for that particular contest.</li>
+                                        <li>Results would be displayed on the Facebook page within 2 hours after the contest has ended.</li>
+                                        <li>Links to the rounds would be given a day before the event starts i.e. on 30th.</li>
+                                    </ol>
+                                   
+                                    
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/crkt.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://bit.ly/2yEfS6m" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn2">Guidelines</a>
+                            
+                            
+                            <!-- The Modal -->
+                            <div id="modal2" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close2 close">&times;</span>
+                                    <h4>Circuit Designing</h4>
+                                    <p>
+                                        
+                                        Want to solve real life electronics problems?
+                                            <br>
+                                        Want to show your Circuit Designing Skills?
+                                            <br>
+                                        
+                                    </p>
+                                    <p>DATE: 30th April and 1st May</p>
+                                    <p>Participants will have to design circuits on circuit simulator software, like LTSpice , <br>
+                                        and submit the file along with a report(In PDF/Word format) explaining the working of circuit
+                                       
+
+                                    </p>
+
+                                    
+                                   
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/iot.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://forms.gle/VcJ6a8kE8Qw3zGzd6" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn3">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal3" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close3 close">&times;</span>
+                                    <h4 class="p-5">IOT Times</h4>
+                                    <p>We at IEEE DTU believe in always coming up with innovative and revolutionary ideas, even when it’s quarantine time. Why not to discuss something with us? Here is an opportunity to showcase your ideas. The event is going to be simple but brain storming indeed.</p>
+                                    <p>DATE: Active now and accepting entries till 1st May</p>
+                                    <p class="px-3">Interested participants are requested to document there idea in the form of a short report/ short summary discussing there idea and elaborating on how they came up with the objective, advantages and efficiency of their idea and any relevant graphic(s). </p>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+             <div class="row justify-content-around">
+
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/lens.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="http://www.facebook.com/glitchIEEE/" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn4">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal4" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close4 close">&times;</span>
+                                    <h4>It's Lensational</h4>
+                                    <p>Do not miss this rare opportunity to take part in this annual photo contests. Choose your best work, upload photos and give yourself a chance to compete for prestige and fame.</p>
+                                    <p>DATE: Active now and accepting entries till 3rd May</p>
+                                    <ol>
+                                        <li>Participants have to DM their entries as a Drive Link of .jpg file to us on Facebook along with their name, contact number, a caption for their submission and the Event Name: "It’s Lensational"</li>
+                                        <li>Only one photograph is allowed per participant. Anything more than that will lead to disqualification, so give it your best shot!</li>
+                                        <li>The submission should be related to either one or more themes listed below:
+                                            <ul>
+                                                <li>Quarantine around You and Me</li>
+                                                <li>Monochromatic</li>
+                                                <li>Thank you Helpers</li>
+                                                <li>Let's Fight COVID-19</li>
+                                                <li>Nature Should Never Go Unnoticed</li>
+                                                <li>Vibrant Lights</li>
+                                                <li>Patterns Around You</li>
+                                                <li>Food</li>
+                                                <li>Night Life</li>
+                                                <li>It's Macro</li>
+                                            </ul>
+                                        </li>
+                                
+                                        <li>The photograph will be posted on our FB page.</li>
+                                        <li> Likes, comments, the number of shares and the caption on the post will be considered to determine the winner.</li>
+                                        <li>We will be accepting entries till 3rd May’ 2020 11:59PM</li>
+                                    </ol>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/meme.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="http://www.facebook.com/glitchIEEE/" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn5">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal5" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close5 close">&times;</span>
+                                    <h4>Meme Challenge</h4>
+                                    <p>Funny, irreverent, witty, bold and often ridiculous, memes make a statement. IEEE DTU is organising memes competition & challenging you to use humour and shed light on the subject of current lockdown/college scenario.</p>
+                                    <p>DATE: Active now and accepting entries till 1st May</p>
+                                    <ol>
+                                        <li> Participants have to DM their self-made entries as a Drive Link of .jpg file to us on Facebook along with their name, contact number and the Event Name: "Meme Challenge"</li>
+                                        <li>The memes should preferably be on current lockdown/ college scenario.</li>
+                                        <li>Only one meme is allowed per participant. Anything more than that will lead to disqualification.</li>
+                                        <li> The memes would be posted on our Facebook page and the winner would be decided on the basis of their creativity and reactions on their memes in terms of likes and comments.</li>
+                                        <li>The deadline for sending memes is 1st May’ 2020, 11:59 PM</li>
+                                    </ol>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/photo.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="http://www.facebook.com/glitchIEEE/" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn6">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal6" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close6 close">&times;</span>
+                                    <h4>Pho-Edito</h4>
+                                    <p><em>"When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence."</em></p>
+                                    <p>Participate in the event for a chance to give exposure to your photography and show-off your skills. </p>
+                                    <p>DATE: Active now and accepting entries till 3rd May</p>
+                                    <p>Participants are requested to visit the link given below to find resource images. Please use only these images to make a new creative composition by manipulating the images.
+
+                                        Resources: <a class= "link" href="http://tiny.cc/8nlmnz" target="_blank">Drive Link</a>
+                                    </p>
+
+                                    <ol>
+                                        <li> Participants have to DM their entries as a Drive Link of .jpg and .psd file to us on Facebook along with their name, contact number and the Event Name: "Pho-Edito"</li>
+                                        <li>Only one photograph is allowed per participant. Anything more than that will lead to disqualification.</li>
+                                        <li>The judgement will be based on creativity and on how well you have utilized the given resources in your composition.</li>
+                                        <li>We will be accepting entries till 3rd May’ 2020 11:59PM</li>
+
+                                    </ol>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+        
+
+           
+
+            <div class="row justify-content-around">
+               
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/kuch.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://forms.gle/zQFTBci6eoWUKDk69" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn7">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal7" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close7 close">&times;</span>
+                                    <h4 class="pt-2 pb-5">Kuch toh Corona</h4>
+                                    <p>DATE: Accepting Entries till 1st May</p>
+                                    <p class="px-4">Concepts of Machine Learning and Data Science to build a model predicting the next country most probable to suffer largely from the COVID-19 outbreak.                                    </p>
+                                    <p>Useful Resource- <br></p>
+                                    <a href="https://drive.google.com/open?id=1newiCzzjuhriojiheFSzX2wsYEtFNjbA" target="_blank">Real-time data till the 23rd of April</a>
+                                    <p class="px-4 pt-1">The judgement will be made based on the how the participant approaches to solve the problem statement and the quality and briefness of documentation.</p>  
+                                    <p class="px-4 pt-1"> Participants are requested to submit their models along with a brief PowerPoint Presentation explaining your approach towards the problem. </p>  
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/pose.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://tinyurl.com/TPoseSubmit" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn8">Guidelines</a>
+                            <!-- The Modal -->
+                            <div id="modal8" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close8 close">&times;</span>
+                                    <h4>T-Pose</h4>
+                                    <p>DATE: 31st April - 1st May [24 hours after theme reveal]</p>
+                                    <p>Overview</p>
+                                    <ol>
+                                        <li>Make a game or animation in Alice 3 on the given themes that would be revealed on the day of the event.</li>
+                                        <li>Theme to be revealed at 17:00 on 31st on Facebook.</li>
+                                        <li>Bonus theme to be revealed after 5 hours from initial theme reveal. (Naturally bonus theme carries arbitrary bonus points 😉)</li>
+                                        <li>Length of Animation - 2 min. (If you value your sanity, choose this please)</li>
+                                        <li>Length of Game - Just make one, that would be more than enough (Try for scrollers, would make you want to kill yourself less)</li>
+                                        <li>Points to be given on the basis of effort put in, memeability (or you can somehow make the project serious, then seriousness), overall quality of the project. (Yes, very vague, much bad)</li>
+                                        <li>Individual entries only. (IEEE DTU does not believe in homicide).</li>
+                                        <li>Your submission should include your Alice 3 project along with any other resource files, which is to be zipped and uploaded on the drive. The drive's link would be given along with theme reveal. (Yea, no joke statement this time, I am no clown)</li>
+                                        <li>Highlights of all submissions would be posted on Facebook page after the end of the event. (As if you struggling with a software made for toddlers was not embarrassing enough)</li>
+                                        <li>Results would be announced within the next 5 hours from deadline.</li>
+                                        <li>Useful Resources:
+                                            <ul>
+                                                <li><a class= "link" href="http://www.alice.org/get-alice/" target="_blank">Resource 1</a></li>
+                                                <li><a class= "link" href="http://www.alice.org/resources/alice-3-lessons/" target="_blank">Resource 2</a></li>
+                                                <li><a class= "link" href="http://www.alice.org/resources/alice-3-exercises-projects/" target="_blank">Resource 3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            
+
+            
+            
+        </div>
+
+    </section>
+
+     <!-- ========= Events Section End ========== -->
+
+
+     <!-- ========== About Section Start ========== -->
+
+     <section id="about">
+        <footer class="bg-dark text-center">
+            <div>
+                <h3>About Us</h3>
+                <p class="mx-3">IEEE DTU Student Branch , under the aegis of IEEE, is the oldest student branch in Delhi Section with an illustrious history of over three decades.
+
+                    Under the invaluable guidance of Dr. J. Panda, IEEE DTU has emerged as one of the most active and innovative student branches in India. IEEE DTU organizes a plethora of events around the year such as TECHWEEK, REPERTOIRE and the annual technical festival TROIKA to instil a scientific temperament in students and to cater to the needs of their inquisitive nature .IEEE DTU is also renowned for its publications- ECHO, a magazine for freshers, IOTA, the annual technical magazine, TRIGGER, the TROIKA souvenir, and The Troika Times.</p>
+            </div>
+            <div class="px-5">
+                <hr class="style-five">
+                <p class="mb-0">Made with ❤️ by IEEE DTU  <a href="https://www.facebook.com/ieeedtu/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a></p>
+            </div>
+        </footer>
+     </section>
+    
+    
+    <!-- Events javaScript-->
+   
+    <script src="events-java.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

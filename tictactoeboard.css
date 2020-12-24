@@ -1,0 +1,56 @@
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#table{
+	margin: auto;
+}
+
+.td{
+	width: 100px;
+	height: 100px;
+}
+
+#a{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+
+#b{
+	border-bottom: 1px solid black;
+	
+}
+
+#c{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+
+#d{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+
+#e{
+	border-bottom: 1px solid black;
+}
+
+#f{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+
+#g{
+	border-right: 1px solid black;
+	
+}
+
+#i{
+	border-left:1px solid black;
+	
+}

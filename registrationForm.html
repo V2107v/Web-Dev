@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+<h1>Register Yourself</h1>
+
+<!-- Can use div tag instead of paragraph tag. -->
+
+<form>
+	<p>
+		<label for="FirstName">First Name:</label>
+		<input placeholder="FirstName" required id="FirstName" type="text" name="firstname">
+
+		<label for="Lastname">Last Name:</label>
+		<input required placeholder="Lastname" id="Lastname" type="text" name="lastname">
+	</p>
+
+	<p>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="female">
+
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="gender" value="other">
+	</p>
+
+	<p>
+		<label for="Email">Email:</label>
+		<input required placeholder="Email" id="Email" type="Email" name="email">
+
+		<label for="Password">Password:</label>
+		<input placeholder="Password" id="Password" type="password" name="password" 
+			pattern=".{5,10}" required title="The password must be between 5 to 10 characters">
+	</p>
+
+	<p>
+		<label for="Birthday">Birthday:</label>
+
+		<select name="Month" id="Birthday">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</select>
+
+		<select name="Day" id="Birthday">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+
+		<select name="Year" id="Birthday">
+			<option>Year</option>
+			<option>2020</option>
+			<option>2019</option>
+			<option>2018</option>
+		</select>
+	</p>
+
+	<p>
+		<label for="TnC">I agree to the Terms and Conditions</label>
+		<input id="TnC" type="checkbox" name="TnC">
+	</p>
+
+	<button>Submit</button>
+</form>
+
+</body>
+</html>
